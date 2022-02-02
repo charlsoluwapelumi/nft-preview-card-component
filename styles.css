@@ -64,6 +64,10 @@ body {
     padding: 20px;
 }
 
+hr {
+    border: 1px solid hsl(0, 0%, 100%, 5%);
+}
+
 .avatar {
     display: flex;
     align-items: center;
