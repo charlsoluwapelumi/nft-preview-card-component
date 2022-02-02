@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.main-image {
+    background: cyan url("../images/icon-view.svg") no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    width: 100%;
+    height: 450px;
+}
+
+.image:hover {
+     opacity: 0.5;
+     background-color: cyan;
+     cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+}
+
+ul li:first-child {
+    color: hsl(178, 100%, 50%);
+}
+
+ul li img {
+    margin: 0 8px 0 0;
+}
+
+
+p {
+    font-weight: 300;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    margin: 16px 8px 16px 0;
+}
+
+h2:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    padding: 20px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 32px 0 0;
+}
+
+.avatar img {
+    width: 48px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 16px 0 0;
+}
+
+span {
+    color: white;
+    font-weight: 400;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.container {
+    padding: 20px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 8px;
+    margin: 0 0 16px;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 500px) {
+    .container {
+        width: 450px;
+        margin: 0 auto 16px;
+    }
+}
